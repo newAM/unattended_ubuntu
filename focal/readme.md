@@ -25,6 +25,11 @@ Creating a password.
 echo "password" > password && makepasswd --clearfrom password --crypt-md5
 ```
 
+The `makepasswd` dependency can be installed on Ubuntu 20.04 with this command.
+```bash
+sudo apt install makepasswd
+```
+
 Serve files.
 ```bash
 cd www
